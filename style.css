@@ -1,0 +1,178 @@
+/* body{ 
+    background-color: black;
+    height: 700px;
+    width: 1152px;
+    left: -618px;
+    top: -369px;
+    border-radius: 0px;
+}
+.num-display{ 
+    height: 137px;
+    width: 673px;
+    left: 73px;
+    top: 146px;
+    border-radius: 0px;
+}
+#key {
+    height: 150px;
+    width: 150px;
+    left: 62.99993896484375px;
+    top: 324.9999694824219px;
+    border-radius: 61px;
+    background: #70707080;
+    border: 1px solid #FFA438;
+    text-align: center;
+    font: 100px Helvetica, Verdana, Tahoma;
+    /* width: 150px; */
+    /* height: 150px; */
+    /* border-radius: 50%; */
+    /* background-color: lightgray; */
+/* .num-btn{ 
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 60px;
+    float: left;
+}
+.op-btn{ 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 60px;
+    float: right;
+}
+.disp{ 
+    font: 100px Helvetica, Verdana, Tahoma;
+    color: lightgray;
+    /* float: right;
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    padding: 0px;
+/* }  */
+
+body { 
+    background-color: black;
+    /* border: 5px solid red; */
+}
+.num-display { 
+    width: 1000px;  
+    height: 300px;
+    /* background-color: lightgray; */
+    position: relative;
+}
+.key {
+    width: 150px;
+    height: 150px;
+    border: 1px double #FFA438;
+    border-radius: 50%;
+    background-color: #707070;
+    /* text-align: center; */
+    font: 100px Helvetica, Verdana, Tahoma;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.num-btn{ 
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 40px;
+    float: left;
+}
+#bksp {
+    background-color: #FFA438;
+    border: 3px solid #707070; 
+    grid-column-start: 1;
+    grid-column-end: 4;
+    width: 530px;
+    border-radius: 50px;
+    height: 120px;
+    font-size: 50px;
+    vertical-align: center;
+}
+#clr { 
+    background-color: #FFA438;
+    border: 3px solid #707070;  
+    grid-column-start: 4;
+    grid-column-end: 6;
+    width: 340px;
+    border-radius: 50px;
+    height: 120px;
+    font-size: 50px;
+}
+.op-btn{ 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    float: right;
+}
+#eqto {
+    background-color: #FFA438;
+    border: 3px solid #707070;   
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 340px;
+    border-radius: 50px;
+    height: 120px;
+}
+#add{ 
+    background-color: #202020;
+    border: 2px solid #8B8B8B;
+    color: #8B8B8B;
+}
+#subt{ 
+    background-color: #202020;
+    border: 2px solid #8B8B8B;
+    color: #8B8B8B;
+}
+#divide{ 
+    background-color: #202020;
+    border: 2px solid #8B8B8B;
+    color: #8B8B8B;
+}
+#multiply{ 
+    background-color: #202020;
+    border: 2px solid #8B8B8B;
+    color: #8B8B8B;
+}
+.disp{ 
+    font: 100px Helvetica, Verdana, Tahoma;
+    color: lightgray;
+    float: right;
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    padding: 0px;
+}
+/* #bksp { 
+    width: 300px;
+    height: 150px;
+} */
+
+
+
+
+ /* <div style="width: 915px; height: 1448px; background-color: black; position: relative;">
+    <div style="width: 567.39px; height: 186.29px; left: 43px; top: 389px; position: absolute; position: relative;">
+        <div style="width: 90.82px; height: 81.71px; left: 0px; top: 0px; position: absolute; background-color: rgba(111.56, 111.56, 111.56, 0.50); border-radius: 61px; border-style: solid; border-width: 1px; border-style: solid; border-color: rgba(255, 164, 56, 1);"/>
+        <div style="width: 90.82px; height: 81.71px; left: 0px; top: 104.59px; position: absolute; background-color: rgba(111.56, 111.56, 111.56, 0.50); border-radius: 61px; border-style: solid; border-width: 1px; border-style: solid; border-color: rgba(255, 164, 56, 1);"/>
+        <div style="width: 90.82px; height: 81.71px; left: 119.14px; top: 104.59px; position: absolute; background-color: rgba(111.56, 111.56, 111.56, 0.50); border-radius: 61px; border-style: solid; border-width: 1px; border-style: solid; border-color: rgba(255, 164, 56, 1);"/>
+        <div style="width: 90.82px; height: 81.71px; left: 238.29px; top: 104.59px; position: absolute; background-color: rgba(111.56, 111.56, 111.56, 0.50); border-radius: 61px; border-style: solid; border-width: 1px; border-style: solid; border-color: rgba(255, 164, 56, 1);"/>
+        <div style="width: 90.82px; height: 81.71px; left: 357.43px; top: 104.59px; position: absolute; background-color: rgba(111.56, 111.56, 111.56, 0.50); border-radius: 61px; border-style: solid; border-width: 1px; border-style: solid; border-color: rgba(255, 164, 56, 1);"/>
+        <div style="width: 90.82px; height: 81.71px; left: 476.57px; top: 104.59px; position: absolute; background-color: rgba(111.56, 111.56, 111.56, 0.50); border-radius: 61px; border-style: solid; border-width: 1px; border-style: solid; border-color: rgba(255, 164, 56, 1);"/>
+        <div style="width: 90.82px; height: 81.71px; left: 119.14px; top: 0px; position: absolute; background-color: rgba(111.56, 111.56, 111.56, 0.50); border-radius: 61px; border-style: solid; border-width: 1px; border-style: solid; border-color: rgba(255, 164, 56, 1);"/>
+        <div style="width: 90.82px; height: 81.71px; left: 238.29px; top: 0px; position: absolute; background-color: rgba(111.56, 111.56, 111.56, 0.50); border-radius: 61px; border-style: solid; border-width: 1px; border-style: solid; border-color: rgba(255, 164, 56, 1);"/>
+        <div style="width: 90.82px; height: 81.71px; left: 357.43px; top: 0px; position: absolute; background-color: rgba(111.56, 111.56, 111.56, 0.50); border-radius: 8px; border-style: solid; border-width: 1px; border-style: solid; border-color: rgba(255, 164, 56, 1);"/>
+        <div style="width: 90.82px; height: 81.71px; left: 476.57px; top: 0px; position: absolute; background-color: rgba(111.56, 111.56, 111.56, 0.50); border-radius: 61px; border-style: solid; border-width: 1px; border-style: solid; border-color: rgba(255, 164, 56, 1);"/>
+    </div>
+    <div style="width: 90px; height: 81px; left: 678px; top: 389px; position: absolute; background-color: rgba(31.88, 31.88, 31.88, 1); border-radius: 9999px; border-style: solid; border-width: 2px; border-style: solid; border-color: rgba(139.19, 139.19, 139.19, 1);"/>
+    <div style="width: 91px; height: 82px; left: 781px; top: 493px; position: absolute; background-color: rgba(31.88, 31.88, 31.88, 1); border-radius: 9999px; border-style: solid; border-width: 2px; border-style: solid; border-color: rgba(139.19, 139.19, 139.19, 1);"/>
+    <div style="width: 90px; height: 82px; left: 678px; top: 493px; position: absolute; background-color: rgba(31.88, 31.88, 31.88, 1); border-radius: 9999px; border-style: solid; border-width: 2px; border-style: solid; border-color: rgba(139.19, 139.19, 139.19, 1);"/>
+    <div style="width: 91px; height: 81px; left: 781px; top: 389px; position: absolute; background-color: rgba(31.88, 31.88, 31.88, 1); border-radius: 9999px; border-style: solid; border-width: 2px; border-style: solid; border-color: rgba(139.19, 139.19, 139.19, 1);"/>
+    <div style="width: 194px; height: 61px; left: 678px; top: 596px; position: absolute; background-color: rgba(255, 163.52, 56.31, 1); border-radius: 20px; border-style: solid; border-width: 3px; border-style: solid; border-color: rgba(112, 112, 112, 1);"/>
+    <div style="width: 275px; height: 61px; left: 337px; top: 596px; position: absolute; background-color: rgba(255, 163.52, 56.31, 1); border-radius: 20px; border-style: solid; border-width: 3px; border-style: solid; border-color: rgba(112, 112, 112, 1);"/>
+    <div style="width: 275px; height: 61px; left: 43px; top: 596px; position: absolute; background-color: rgba(255, 163.52, 56.31, 1); border-radius: 20px; border-style: solid; border-width: 3px; border-style: solid; border-color: rgba(112, 112, 112, 1);"/>
+    <div style="width: 680px; height: 137px; left: -70px; top: 206px; position: absolute;">
+        <div style="width: 680px; height: 137px; padding-top: 51px; padding-bottom: 39px; padding-left: 507px; padding-right: 23px; background-color: black; display: flex; flex-direction: row; align-items: flex-end; justify-content: flex-end;">
+            <p style="width: 149.54px; height: 47px; font-size: 60px; line-height: 100%; color: white;">3434</p>
+        </div>
+    </div>
+</div> */
